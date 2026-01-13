@@ -14,8 +14,9 @@ The ArchKalmag14k model is a global geomagnetic field reconstruction for the Hol
 a) Link to download the paper: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JB023166
 b) Link to download data (Gauss coefficients): https://ionocovar.agnld.uni-potsdam.de/Kalmag/Archeo/Archeo14k/
 
-Note: The `ArchKalmag14k_lmax14.txt` file was downloaded from the link above (b), with lmax = 14, output timestep of 50 years and time window from -12000 to 1950 years (minimum and maximum limits reached by the model). If you want a larger lmax, or modify the output timestep, a new `.txt` file must be downloaded from this link. If you choose this file with other requirements, the function that reads the Gauss coefficients must also be modified to "reach" the last coefficient of degree = lmax in the Jupyter Notebook file `ArchKalmag14k.ipynb`.
+Note: The `ArchKalmag14k_lmax14.txt` file was downloaded from the link above (b), with lmax = 14, output timestep of 50 years and time window from -12000 to 1950 years (minimum and maximum limits reached by the model). If you want a larger lmax, or modify the output timestep, a new `.txt` file must be downloaded from this link. If you choose this file with other requirements, the function that reads the Gauss coefficients must also be modified to "reach" the last coefficient of degree lmax in the Jupyter Notebook file `ArchKalmag14k.ipynb`.
 
 To plot the intensity map, please do this:
-1) Dowload the file `ArchKalmag14k_lmax14.txt`;
-2) 
+1. Dowload the file `ArchKalmag14k_lmax14.txt`;
+2. Dowload the file `ArchKalmag14k.ipynb` (or just copy its content);
+3. Run.
