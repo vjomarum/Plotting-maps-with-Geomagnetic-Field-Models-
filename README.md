@@ -28,3 +28,7 @@ The COV-OBS.x2 model is a geomagnetic field model covering the period 1840–202
 a) DOI of the paper: 10.1186/s40623-020-01194-2
 b) Link to download data (Gauss coefficients): https://www.spacecenter.dk/files/magnetic-models/COV-OBSx2/COV-OBS.x2-int
 
+To plot the intensity map, please do this:
+1. Dowload the file `covobsx2.txt`;
+2. Dowload the file `COV-OBSx2.ipynb` (or just copy its content);
+3. Run.
