@@ -12,8 +12,8 @@ The aim of this repository is to offer the reader a set of practical scripts for
 ### ArchKalmag14k (Schanner et al., 2022)
 The ArchKalmag14k model is a global geomagnetic field reconstruction for the Holocene, spanning the last 14,000 years, which is derived by applying a Kalman filter–based inversion to available archeomagnetic and volcanic paleomagnetic data.
 
-a) DOI of the paper: 10.1029/2021JB023166
-b) Link to download data (Gauss coefficients): https://ionocovar.agnld.uni-potsdam.de/Kalmag/Archeo/Archeo14k/
+a) DOI of the paper: 10.1029/2021JB023166;
+b) Link to download data (Gauss coefficients): https://ionocovar.agnld.uni-potsdam.de/Kalmag/Archeo/Archeo14k/.
 
 Note: The `ArchKalmag14k_lmax14.txt` file was downloaded from the link above (b), with lmax = 14, output timestep of 50 years and time window from -12000 to 1950 years (minimum and maximum limits reached by the model). If you want a larger lmax, or modify the output timestep, a new `.txt` file must be downloaded from this link. If you choose this file with other requirements, the function that reads the Gauss coefficients must also be modified to "reach" the last coefficient of degree lmax in the Jupyter Notebook file `ArchKalmag14k.ipynb`.
 
@@ -25,8 +25,8 @@ To plot the intensity map, please do this:
 ### COV-OBS.x2 (Huder et al., 2020)
 The COV-OBS.x2 model is a geomagnetic field model covering the period 1840–2020, mainly constrained by long-term observatory records, historical ground-based surveys and satellite magnetic measurements. It incorporates annual differences of observatory data, virtual observatory series derived from the CHAMP (2001–2010) and Swarm (since 2013) missions and uses statistical a priori temporal covariances to obtain realistic estimates of the geomagnetic field evolution and its uncertainties.
 
-a) DOI of the paper: 10.1186/s40623-020-01194-2
-b) Link to download data (Gauss coefficients): https://www.spacecenter.dk/files/magnetic-models/COV-OBSx2/COV-OBS.x2-int
+a) DOI of the paper: 10.1186/s40623-020-01194-2;
+b) Link to download data (Gauss coefficients): https://www.spacecenter.dk/files/magnetic-models/COV-OBSx2/COV-OBS.x2-int.
 
 To plot the intensity map, please do this:
 1. Dowload the file `covobsx2.txt`;
